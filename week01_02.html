@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>artist_card</title>
+</head>
+<body class="bg-gray-900">
+<main class="w-72 mx-auto mt-2 bg-gray-800 rounded-xl shadow-2xl overflow-hidden">
+    <div class="relative">
+        <img src="./images/cover.jpg" alt="NEON GHOSTのアーティスト写真" class="w-full h-40 object-cover">
+        <span class="absolute bottom-3 left-3 bg-purple-500 text-white text-xs font-bold px-2 py-1 rounded">ARTIST</span>
+    </div>
+
+    <div class="p-4">
+        <h1 class="text-white text-xl font-bold">NEON GHOST</h1>
+        <p class="text-purple-400 text-xs mt-1">インディーロック・東京</p>
+    
+        <ul class="mt-3 space-y-1">
+            <li class="text-gray-300 text-xs">🎸 ボーカル&ギター：田中 凛</li>
+            <li class="text-gray-300 text-xs">🥁 ドラム：佐藤 海</li>
+            <li class="text-gray-300 text-xs">🎹 キーボード：山本 蒼</li>
+        </ul>
+
+        <ul class="mt-3 flex flex-wrap gap-2">
+            <li class="bg-gray-700 text-gray-300 text-xs px-2 py-1 rounded">ロック</li>
+            <li class="bg-gray-700 text-gray-300 text-xs px-2 py-1 rounded">インディー</li>
+            <li class="bg-gray-700 text-gray-300 text-xs px-2 py-1 rounded">バンド</li>
+        </ul>
+
+        <div class="mt-4 flex justify-center">
+            <button class="bg-purple-600 text-white text-base font-bold px-10 py-3 rounded-lg">プロフィールを見る</button>
+        </div>
+    </div>
+</main>
+</body>
+</html>
